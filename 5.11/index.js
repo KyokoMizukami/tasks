@@ -65,6 +65,6 @@ http
       res.write("</html>");
       res.end();
     }
-  });
+  })
 
   .listen(8000, () => console.log("server is listening."));
